@@ -86,8 +86,8 @@ try{
   assert.deepEqual(scenes.map(s=>s.name),['1-cover.jpg','2-editor.jpg','3-cover.jpg','4-cover.jpg']);
   await mkdir(join(root,'.makefun'),{recursive:true});
   work=await mkdtemp(join(root,'.makefun','capture-'));
-  const chrome=start('Chromium','/opt/meta-chromium/chrome',[
-    '--headless=new','--no-sandbox','--disable-setuid-sandbox','--disable-gpu','--disable-dev-shm-usage','--remote-debugging-pipe',
+  const chrome=start('Chromium','/home/hatch/.cache/puppeteer/chrome-headless-shell/linux-157.0.8103.50/chrome-headless-shell-linux64/chrome-headless-shell',[
+    '--headless=new','--no-sandbox','--disable-setuid-sandbox','--disable-gpu','--disable-dev-shm-usage','--remote-debugging-pipe','--disable-crashpad','--disable-crash-reporter','--no-crashpad',
     '--no-first-run','--no-default-browser-check','--disable-background-networking','--disable-component-update','--disable-sync',
     '--host-resolver-rules=MAP * ~NOTFOUND',
     `--user-data-dir=${join(work,'profile')}`,'about:blank'
