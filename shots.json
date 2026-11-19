@@ -1,5 +1,6 @@
 [
-  { "name": "1-cover.jpg", "query": "?shot=cover&photo=pier&caption=Sunset%20Heist", "w": 1080, "h": 1080 },
-  { "name": "2-editor.jpg", "query": "?shot=editor&photo=boulevard&caption=Boulevard%20Queen", "w": 1280, "h": 720 },
-  { "name": "3-cover.jpg", "query": "?shot=cover&photo=boulevard&caption=Boulevard%20Queen", "w": 1080, "h": 1080 }
+  { "name": "1-cover.jpg", "query": "?shot=cover&layout=collage&grade=sunset&size=1920x1080&photos=boulevard,pier&title=VICE%7CAFTER%20DARK&subtitle=THE%20CITY%20IS%20YOURS.%20THE%20NIGHT%20IS%20YOUNG.", "w": 1280, "h": 720 },
+  { "name": "2-editor.jpg", "query": "?shot=editor&layout=collage&grade=sunset&size=1080x1350&photos=boulevard,pier&title=VICE%7CAFTER%20DARK", "w": 1280, "h": 720 },
+  { "name": "3-cover.jpg", "query": "?shot=cover&layout=triptych&grade=neon&size=1080x1350&photos=pier,boulevard&title=MIDNIGHT%7CRUNAWAYS&subtitle=NO%20MAP.%20NO%20CURFEW.%20NO%20LOOKING%20BACK.", "w": 1024, "h": 1280 },
+  { "name": "4-cover.jpg", "query": "?shot=cover&layout=duo&grade=gold&size=1080x1080&photos=boulevard,pier&title=GOLDEN%7COUTSIDERS&subtitle=A%20SUMMER%20WORTH%20GETTING%20LOST%20IN.", "w": 1080, "h": 1080 }
 ]
